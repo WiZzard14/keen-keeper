@@ -48,7 +48,7 @@ const Timeline = ({ entries }) => {
                                 {getIcon(entry.type)}
                             </div>
 
-                            <div className="flex-grow">
+                            <div className="grow">
                                 <p className="text-lg font-bold text-gray-800">
                                     <span className="text-gray-900">{entry.type}</span> 
                                     <span className="text-gray-400 font-medium"> with {entry.title.split('with ')[1]}</span>

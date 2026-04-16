@@ -36,16 +36,16 @@ const Stats = ({ timeline }) => {
                     Friendship Analytics
                 </h1>
 
-                <div className="bg-white rounded-[32px] p-16 shadow-sm border border-gray-100 min-h-[550px] flex flex-col">
+                <div className="bg-white rounded-4xl p-16 shadow-sm border border-gray-100 min-h-137.5 flex flex-col">
                     <h3 className="text-xs font-bold text-gray-400 uppercase tracking-[0.2em] mb-4">
                         By Interaction Type
                     </h3>
 
-                    <div className="flex-grow flex items-center justify-center">
+                    <div className="grow flex items-center justify-center">
                         {!hasData ? (
                             <p className="text-gray-400 italic font-medium">No interaction data logged yet.</p>
                         ) : (
-                            <div className="w-full h-[400px]">
+                            <div className="w-full h-100">
                                 <ResponsiveContainer width="100%" height="100%">
                                     <PieChart>
                                         <Pie
