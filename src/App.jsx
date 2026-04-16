@@ -6,6 +6,7 @@ import Timeline from './pages/Timeline'
 import Stats from './pages/Stats'
 import Footer from './components/footer/Footer'
 import FriendDetails from './pages/FriendDetails';
+import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
   const [currentPage, setPage] = useState('home');
@@ -19,8 +20,8 @@ function App() {
           type: type,
           title: `${type} with ${friendName}`
       };
-      setTimeline([entry, ...timeline]); // Newest first
-      alert(`Success: ${type} with ${friendName} logged!`); // Requirement 10.3
+      setTimeline([entry, ...timeline]);
+      toast.success(`Checked in: ${type} with ${friendName}`);
   };
 
   return (
