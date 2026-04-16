@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import Home from './pages/Home' 
 import Timeline from './pages/Timeline'
 import Stats from './pages/Stats'
+import Footer from './components/footer/Footer'
 
 function App() {
   const [currentPage, setPage] = useState('home');
@@ -17,6 +18,8 @@ function App() {
         {currentPage === 'timeline' && <Timeline />}
         {currentPage === 'stats' && <Stats />}
       </main>
+
+      <Footer />
 
     </div>
   )
