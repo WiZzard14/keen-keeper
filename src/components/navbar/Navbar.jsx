@@ -6,7 +6,7 @@ const Navbar = ({ currentPage, setPage }) => {
         <div className="navbar bg-base-100 shadow-sm px-4 md:px-12">
             <div className="flex-1">
                 <div className="flex items-center gap-2 cursor-pointer" onClick={() => setPage('home')}>
-                    <img src={logo} alt="Logo" className="btn" />
+                    <img src={logo} alt="Logo" className="btn btn-ghost" />
                 </div>
             </div>
 
