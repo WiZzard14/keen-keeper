@@ -6,6 +6,7 @@ import Timeline from './pages/Timeline'
 import Stats from './pages/Stats'
 import Footer from './components/footer/Footer'
 import FriendDetails from './pages/FriendDetails';
+import NotFound from './pages/NoFound';
 import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
@@ -42,6 +43,9 @@ function App() {
           <Timeline entries={timeline} />
         )}
         {currentPage === 'stats' && <Stats timeline={timeline} />}
+        {!['home', 'details', 'timeline', 'stats'].includes(currentPage) && (
+            <NotFound setPage={setPage} />
+        )}
       </main>
       <Footer />
     </div>
