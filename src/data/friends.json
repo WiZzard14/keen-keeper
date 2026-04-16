@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "picture": "https://i.pravatar.cc/150?u=sarah",
+    "email": "sarah.c@techmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during freshman orientation. She's a brilliant UI designer and a fellow coffee enthusiast.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Alex Rodriguez",
+    "picture": "https://i.pravatar.cc/150?u=alex",
+    "email": "alex.rod@webspace.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["work", "gym"],
+    "bio": "Former colleague who convinced me to start marathon training. Very disciplined and helpful.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Jordan Smith",
+    "picture": "https://i.pravatar.cc/150?u=jordan",
+    "email": "j.smith88@provider.net",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["neighborhood"],
+    "bio": "Living next door for three years. We usually catch up over weekend gardening or local events.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "name": "Priya Das",
+    "picture": "https://i.pravatar.cc/150?u=priya",
+    "email": "priya.das@global.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["childhood friend"],
+    "bio": "Known each other since kindergarten. Life got busy lately, but we always have the best deep talks.",
+    "goal": 30,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 5,
+    "name": "Marcus Thorne",
+    "picture": "https://i.pravatar.cc/150?u=marcus",
+    "email": "m.thorne@creative.org",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["gaming", "work"],
+    "bio": "Passionate about indie game development and pixel art. We collaborate on side projects sometimes.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 6,
+    "name": "Elena Rossi",
+    "picture": "https://i.pravatar.cc/150?u=elena",
+    "email": "elena.rossi@travels.it",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["travel", "college"],
+    "bio": "Study abroad roommate in Italy. She travels the world now but we try to sync up monthly.",
+    "goal": 21,
+    "next_due_date": "2026-04-29"
+  },
+  {
+    "id": 7,
+    "name": "Liam Nguyen",
+    "picture": "https://i.pravatar.cc/150?u=liam",
+    "email": "liam.vines@startup.io",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "Gave me my first break in the tech industry. Great at explaining complex systems simply.",
+    "goal": 12,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 8,
+    "name": "Sophie Müller",
+    "picture": "https://i.pravatar.cc/150?u=sophie",
+    "email": "sophie.m@berlinmail.de",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["close friend", "music"],
+    "bio": "Plays the cello and introduced me to classical fusion. We share playlists almost every day.",
+    "goal": 7,
+    "next_due_date": "2026-04-21"
+  }
+]
